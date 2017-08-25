@@ -42,8 +42,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Informer.cs" />
     <Compile Include="Product.cs" />
-    <Compile Include="Products\Aphrodosiacs.cs" />
+    <Compile Include="Products\Aphrodisiacs.cs" />
     <Compile Include="Products\Condoms.cs" />
     <Compile Include="Products\Dolls.cs" />
     <Compile Include="Program.cs" />

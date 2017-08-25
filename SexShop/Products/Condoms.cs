@@ -8,5 +8,15 @@ namespace SexShop.Products
 {
     class Condoms : Product
     {
+        public int Size { get; set; }
+
+        public Condoms(string name, int price, string manufacturer, int size)
+        {
+            Name = name;
+            Price = price;
+            Manufacturer = manufacturer;
+            Size = size;
+        }
+
     }
 }
